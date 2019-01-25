@@ -1,15 +1,15 @@
 [ADS]
 enabled=true
-module=cayenne-ads1xxx
+module=cayenne_ads1xxx
 class=ADS1115
 read=read
 
 [ADS_CH0]
 enabled=true
 channel=0
-module=cayenne-ads1xxx
+module=cayenne_ads1xxx
 class=AnalogInput
-init_args={"plugin_id":"cayenne-ads1xxx:ADS"}
+init_args={"plugin_id":"cayenne_ads1xxx:ADS"}
 read=read
 read_args={"channel":$channel, "value_type":"float"}
 
